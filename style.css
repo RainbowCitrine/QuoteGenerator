@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: lightpink;
+}
+
+.wrap {
+    width: 605px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px 30px 25px
+}
+
+.wrap header {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrap .content {
+    margin: 35px 0;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area .quote {
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.quote-area i {
+    font-size: 15px;
+}
+
+.quote-area i:first-child {
+    margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+.content .author {
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.author span:first-child {
+    margin: -7px 5px 0 0;
+    font-family: monospace
+}
+
+.wrap .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feature ul {
+    display: flex;
+}
+
+.feature button {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: lightpink;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: red;
+}
